@@ -1,11 +1,18 @@
 #!/usr/bin/python
 
 ##
-# Send a push message via the Google Cloud Messaging. 
-# This script uses the python-gcm lib. Install it with pip: pip install python-gcm.
-# The first param is the GCM API key, the second is the target device registration id.
-# The other params are the message's key-value pairs, separated with ':'.
-# Example: send-push.py api_key reg_id title:mytitle detail:mydetail
+# Send a push message via the Google Cloud Messaging.
+#
+# Dependencies:
+#	- python-gcm. Install it with pip: pip install python-gcm.
+#
+# Params:
+#	1.: GCM API key.
+#	2.: Target device registration id.
+#	3. - : The message's key-value pairs, separated with ':'.
+#
+# Examples: 
+#	$ send-push.py api_key reg_id title:mytitle detail:mydetail
 ##
 
 # process args

@@ -2,7 +2,11 @@
 
 ##
 # This script helps to search in a html file. Currently it supports only searching for a value of a tag.
-# The first param is the html, the second is the result file, the third is the name of the tag to search for.
+#
+# Params:
+#	1.: The HTML file.
+#	2.: The result file.
+#	3.: The name of the tag to search for.
 ##
 
 # process args

@@ -2,7 +2,9 @@
 
 ##
 # It compares 2 files line by line. Counts the same lines and write out the different lines too.
-# The first ot param is the 2 file.  
+# 
+# Params:
+#	1-2.: The 2 files.  
 ##
 
 import sys

@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 
 ##
-# This script measure the current temperature of the device and append it to the end of a file. 
-# The only param is a path to a file. It will be created if it's not exist.
-# vcgencmd must be installed.
+# This script measure the current temperature of the device and append it to the end of a file.
+#
+# Dependencies:
+#	- vcgencmd
+#
+# Params:
+#	1.: The path to a file. It will be created if it's not exist.
 ##
 
 # process arguments
