@@ -1,2 +1,2 @@
 # scripts
-Contains some useful scripts.
+Some useful scripts in Python, Bash and Dash.
